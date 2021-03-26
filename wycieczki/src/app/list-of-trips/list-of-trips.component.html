@@ -1,0 +1,6 @@
+
+ <app-trip-card *ngFor="let trip of (journeys | searchPrice | searchCountry | searchDate | searchReview)"  [journey]="trip" [MaxPrice]='maxPrice' [MinPrice]='minPrice' (sumOfRes)='GetMessage($event)' (del)='DeleteTrip($event)' (updateSignal)='Update()' (basketSignal1)='basket1.emit($event)' (basketSignal2)='basket2.emit($event)'> </app-trip-card>
+
+ 
+
+

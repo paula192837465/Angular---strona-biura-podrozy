@@ -1,0 +1,20 @@
+a
+{
+    margin: 20px;
+    text-decoration: none;
+}
+
+#user
+{
+    margin: 0px;
+}
+
+nav
+{
+    background-color: aliceblue;
+    height: 50px;
+    width: 100%;
+    margin: 0% !important;
+    padding-top: 18px;
+    
+}

@@ -1,0 +1,11 @@
+<div [hidden]="ifReader()" id="trip" [ngStyle]="{'box-shadow': getColor()}">
+    <img src="{{journey.urlImage}}">
+    <div id="wrapper">
+        <h3>{{journey.name|uppercase}}</h3>
+        <h4 id="Destination"> {{journey.country|uppercase}}</h4>
+        
+    <app-delete-trip (deleteTrip)='deleteTrip($event)' [hidden]='!isAdmin()'></app-delete-trip><br>
+</div>
+
+<div routerLink="/trip-details/{{journey.name}}" class="btn" role="button" routerLinkActive="active">+</div>
+<router-outlet></router-outlet>

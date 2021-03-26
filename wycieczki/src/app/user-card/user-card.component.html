@@ -1,0 +1,9 @@
+<div class="user-container">
+    <select class="selector" [(ngModel)]="selectedRole" (click)="updateUser()">
+        <option *ngFor="let role of roles">{{role}}</option>
+    </select>
+    <p>{{systemUser.email}}</p>
+   
+    <p><b>Rola w systemie:</b> {{systemUser.roles}}</p>
+    
+</div>

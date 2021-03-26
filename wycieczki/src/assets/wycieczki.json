@@ -1,0 +1,103 @@
+{"trips":
+
+[
+  {
+  
+    "name": "Bałkański Kocioł",
+    "country": "Czarnogóra",
+    "start": "15.07.2021",
+    "end": "25.07.2021",
+    "price": 1400,
+    "seats": 25,
+    "stars": 0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec tristique augue. Duis commodo, odio sed ultricies semper, augue erat tempus sem, eu porttitor enim erat ut mi. Morbi scelerisque tempus ante gravida congue. Nunc pellentesque rutrum mauris ac molestie. Morbi faucibus maximus neque quis mattis.",
+    "image": "https://fly.pl/wp-content/uploads/2017/03/Czarnog%C3%B3ra-Budva.jpg"
+      
+  },
+  {
+  
+    "name": "Perła Adriatyku",
+    "country": "Chorwacja",
+    "start": "23.07.2021",
+    "end": "31.07.2021",
+    "price": 2000,
+    "seats": 30,
+    "stars": 0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec tristique augue. Duis commodo, odio sed ultricies semper, augue erat tempus sem, eu porttitor enim erat ut mi. Morbi scelerisque tempus ante gravida congue. Nunc pellentesque rutrum mauris ac molestie. Morbi faucibus maximus neque quis mattis.",
+    "image": "https://i.wpimg.pl/O/644x429/d.wpimg.pl/1956766448-1208584657/chorwacja.jpg"
+  },
+  {
+   
+     "name": "Biegun zimna",
+    "country": "Kanada",
+    "start": "3.07.2021",
+    "end": "25.07.2021",
+    "price": 7000,
+    "seats": 15,
+    "stars": 0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec tristique augue. Duis commodo, odio sed ultricies semper, augue erat tempus sem, eu porttitor enim erat ut mi. Morbi scelerisque tempus ante gravida congue. Nunc pellentesque rutrum mauris ac molestie. Morbi faucibus maximus neque quis mattis.",
+    "image": "https://fajnepodroze.pl/wp-content/uploads/2017/11/informacje-o-kanadzie.jpg"
+    
+  },
+  {
+    
+     "name": "Biegun gorąca",
+    "country": "Cypr",
+    "start": "15.08.2021",
+    "end": "23.08.2021",
+    "price": 1950,
+    "seats": 40,
+    "stars": 0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec tristique augue. Duis commodo, odio sed ultricies semper, augue erat tempus sem, eu porttitor enim erat ut mi. Morbi scelerisque tempus ante gravida congue. Nunc pellentesque rutrum mauris ac molestie. Morbi faucibus maximus neque quis mattis.",
+    "image": "https://f4fcdn.eu/wp-content/uploads/2019/09/Cypr.jpg"
+  },
+  {
+    
+    "name": "Wulkaniczna Przygoda",
+    "country": "Islandia",
+    "start": "01.05.2021",
+    "end": "10.05.2021",
+    "price": 3200,
+    "seats": 20,
+    "stars": 0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec tristique augue. Duis commodo, odio sed ultricies semper, augue erat tempus sem, eu porttitor enim erat ut mi. Morbi scelerisque tempus ante gravida congue. Nunc pellentesque rutrum mauris ac molestie. Morbi faucibus maximus neque quis mattis.",
+    "image": "https://bi.im-g.pl/im/32/30/17/z24314418IER,Islandia.jpg"
+  },
+  {
+   
+    "name": "W Krainie Baobabów",
+    "country": "Madagaskar",
+    "start": "17.11.2021",
+    "end": "12.12.2021",
+    "price": 5700,
+    "seats": 10,
+    "stars": 0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec tristique augue. Duis commodo, odio sed ultricies semper, augue erat tempus sem, eu porttitor enim erat ut mi. Morbi scelerisque tempus ante gravida congue. Nunc pellentesque rutrum mauris ac molestie. Morbi faucibus maximus neque quis mattis.",
+    "image": "https://www.tanie-loty.com.pl/images/easyblog_articles/13552/b2ap3_large_Madagaskar-baobab-shutterstock_187374941.jpg"
+  },
+  {
+    
+    "name": "Lagunowe Wody",
+    "country": "Indonezja",
+    "start": "01.10.2021",
+    "end": "25.10.2021",
+    "price": 6400,
+    "seats": 30,
+    "stars": 0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec tristique augue. Duis commodo, odio sed ultricies semper, augue erat tempus sem, eu porttitor enim erat ut mi. Morbi scelerisque tempus ante gravida congue. Nunc pellentesque rutrum mauris ac molestie. Morbi faucibus maximus neque quis mattis.",
+    "image": "https://www.toptravel.pl/wp-content/uploads/Azja/Indonezja/Indonezja-wycieczki-2.jpg"
+  },
+  {
+    
+     "name": "Powiew Wiosny",
+    "country": "Portugalia - Madera",
+    "start": "15.09.2021",
+    "end": "30.09.2021",
+    "price": 2700,
+    "seats": 15,
+    "stars": 0,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec tristique augue. Duis commodo, odio sed ultricies semper, augue erat tempus sem, eu porttitor enim erat ut mi. Morbi scelerisque tempus ante gravida congue. Nunc pellentesque rutrum mauris ac molestie. Morbi faucibus maximus neque quis mattis.",
+    "image": "https://podroze.smcloud.net/t/image/t/134386/madera_335093.jpg"
+  }
+]
+}

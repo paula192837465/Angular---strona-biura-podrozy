@@ -1,0 +1,23 @@
+<img src="{{journey.urlImage}}">
+    <div id="wrapper">
+        <h3>{{journey.name|uppercase}}</h3>
+        <app-add-delete-buttons *ngIf="cantEdit()"></app-add-delete-buttons>
+        <h4 id="Destination"> {{journey.country|uppercase}}</h4>
+        <p id="FromTo"><b>Termin:</b> {{journey.start}}-{{journey.end}}</p>
+        <p id="Price"><b>Cena:</b> {{journey.price}} zł</p>
+        <p id="Seats"  *ngIf = "journey.seats > 0; then NumberOfSeats else LackOfSeats" style="margin-bottom: 10px;" ></p>
+        <p id="description"><b>Opis wycieczki:</b> {{journey.description}}</p>
+        
+        <p *ngIf="cantEdit()"><app-stars  (starsReview)="setReview($event)"></app-stars>Review: {{journey.rating}}</p> 
+        
+    </div>
+    <br><br><br>
+    
+
+    <ng-template #NumberOfSeats>
+        <p [ngStyle]="{'color': journey.seats <= 3 ? 'red' : 'green'}"><b> Ilość wolnych miejsc:</b> {{journey.seats}} </p>
+    </ng-template>
+
+    <ng-template #LackOfSeats>
+        <p style="color: red;"><b> Ilość wolnych miejsc:</b> brak miejsc</p>
+    </ng-template>

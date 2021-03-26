@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;700&display=swap');
+
+#trip
+{
+    width:70%;
+    height: 120px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    /*box-shadow: 5px 5px 7px gray ;*/
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+img
+{
+    width:20%; 
+    height: 90%; 
+    float:left;
+    clip-path: circle();
+    margin: 5px;
+    
+}
+
+p 
+{
+    margin:0;
+    padding: 2px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+h3
+{
+    font-size: 23px;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+h4
+{
+    padding: 0;
+    margin: 3px 0 13px 0;
+    font-weight: 500;
+    color:rgb(77, 73, 73);
+    
+}
+#wrapper
+{
+    width: 65%;
+    float:left;
+}
+
+#sumOfTrips
+{
+    font-size: 20px;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+}
+
+.btn
+{
+    background-color: rgb(229, 245, 208);
+    float: right;
+    width: 50px;
+    height: 50px;
+    clip-path: circle();
+    border: none;
+    margin: 30px 15px 0 0;
+    font-size: 40px;
+    padding-left:25px;
+
+}
+
+.btn :hover
+{
+    cursor: pointer;
+    background-color: aliceblue;
+}

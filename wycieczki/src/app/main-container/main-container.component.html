@@ -1,0 +1,19 @@
+
+<nav>
+    <a id="user" style="float: right; margin-right: 15px">{{ShowUser()}}</a>
+    <a routerLink="list-of-trips" class="btn" role="button" routerLinkActive="active" *ngIf="getInfo()">Lista Wycieczek</a>
+    <a routerLink="form" class="btn" role="button" routerLinkActive="active" *ngIf="getInfo() && canEdit()">Dodaj wycieczkę</a>
+    <a routerLink="basket" class="btn" role="button" routerLinkActive="active" *ngIf="cantEdit()" >Koszyk</a>
+    <a routerLink="users-list" class="btn" role="button" routerLinkActive="active" *ngIf="isAdmin()" >Lista Użytkowników</a>
+    
+    <a routerLink="register" class="btn" role="button" routerLinkActive="active" *ngIf="!getInfo()">Rejestracja</a>
+    <a routerLink="login" class="btn" role="button" routerLinkActive="active" *ngIf="!getInfo()">Logowanie</a>
+    <a id="loggedOut" routerLink="login" class="btn" role="button" routerLinkActive="active"(click)=signOut() *ngIf="getInfo()">Wyloguj</a>
+    
+</nav>
+<p style="text-align: center" id="sumOfTrips" *ngIf='cantEdit()' [ngStyle]="{'color': sum>=10 ? 'green':'red'}" >Liczba Twoich wycieczek: {{getMessage()}}</p>
+
+<router-outlet> </router-outlet>
+
+
+
